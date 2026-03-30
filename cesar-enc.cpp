@@ -1,16 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/*
-map<char, int> alpha = {};
-
-void populate_map(){
-	string a = "abcdefghijklmnopqrstuvwxyz";
-	for(size_t i=0;i<s.size();i++){
-		alpha.add({s[i], i});
-	}
-}*/
-
 string clear_string(string s){
 	string res = "";
 	for(size_t i=0;i<s.size();i++){
@@ -37,8 +27,7 @@ string dec(string s, int k){
 	for(size_t i=0;i<s.size();i++){
 		int c = s[i] - 'a';
 		c -= k;
-		if (c < 0) c += 26;	
-		//cout << c << endl;
+		if (c < 0) c += 26;
 		s[i] = c + 'a';
 	}
 	return s;
@@ -46,7 +35,6 @@ string dec(string s, int k){
 
 int main(){
 
-//	populate_map();
 	string s;
 	cin >> s;
 	int k;
