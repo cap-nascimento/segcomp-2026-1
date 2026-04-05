@@ -1,2 +1,4 @@
-testando um texto em portugues.
-testando outro texto em outra linha.
+Cada estacao da vida e uma edicao, que corrige a anterior
+e que sera corrigida tambem, ate a edicao definitiva, que o
+editor da de graca aos vermes.
+Memorias Postumas de Bras Cubas.
